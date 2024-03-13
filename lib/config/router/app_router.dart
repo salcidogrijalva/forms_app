@@ -15,5 +15,9 @@ final appRouter = GoRouter(
       path: '/bloc',
       builder: (context, state) => const BlocCounterScreen(),
     ),
+    GoRoute(
+      path: '/signup',
+      builder: (context, state) => const SignUpScreen(),
+    ),
   ]
 );
